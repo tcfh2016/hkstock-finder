@@ -8,7 +8,7 @@ import akshare as ak
 stock_hk_ggt_components_em_df = ak.stock_hk_ggt_components_em()
 print(stock_hk_ggt_components_em_df)
 ```
-
+gcc
  参考：
 
  - [AKShare 快速入门](https://www.akshare.xyz/tutorial.html#akshare)

@@ -25,7 +25,7 @@ import akshare as ak
 stock_zh_valuation_baidu_df = ak.stock_zh_valuation_baidu(symbol="002044", indicator="总市值", period="近一年")
 print(stock_zh_valuation_baidu_df)
 ```
-
+55 1193 1625 544
 
 ## A+H名单
 

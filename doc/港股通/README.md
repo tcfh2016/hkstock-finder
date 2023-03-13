@@ -12,3 +12,8 @@ print(stock_hk_ggt_components_em_df)
  参考：
 
  - [AKShare 快速入门](https://www.akshare.xyz/tutorial.html#akshare)
+
+ ## 信息变动
+
+ - 2023-03-13：港股通共有560只标的。
+ - 2023-03-12：港股通共有548只标的。

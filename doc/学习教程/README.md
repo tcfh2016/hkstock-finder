@@ -25,3 +25,7 @@ def my_convert_func(value) -> float:
 
 temp_df['close'] = temp_df['close'].apply(my_convert_func)
 ```
+
+## 增删改查
+
+pandas 1.5.2之后支持了字符串`string`类型。PyCharm是Python用得最强大的IDE。

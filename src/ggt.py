@@ -8,10 +8,8 @@ db_path = os.path.join(os.getcwd(), "db", "indicator", "")
 
 def multi_indicators(sym, inds, perd):
     inds_df = pd.DataFrame(columns=inds)
-    for ind in inds:
-        print("sym={}, ind={}".format(sym, ind))
-        df = ak.stock_hk_valuation_baidu(symbol=sym, indicator=ind, period=perd)
-        print(df)
+    for ind in inds:        
+        df = ak.stock_hk_valuation_baidu(symbol=sym, indicator=ind, period=perd)        
         df.set_index("date", inplace=True)
         inds_df[ind] = df["value"]
     return inds_df

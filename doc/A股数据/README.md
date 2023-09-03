@@ -25,3 +25,20 @@
 ## [财务报表-新浪](https://www.akshare.xyz/data/stock/stock.html#id171)
 
 官方文档的示例中是使用`stock_financial_report_sina(stock="sh600600", symbol="资产负债表")`来获取资产负债表。测试之后发现获取到的数据是空的，之后发现是现在`stock`里面传递的股票代码不需要添加前缀，直接传入`600600`即可。
+
+
+## [历史分红]()
+
+1）[巨潮接口](https://www.akshare.xyz/data/stock/stock.html#id202)已不可用：
+
+```
+stock_dividents_cninfo_df = ak.stock_dividents_cninfo(symbol="600009")
+print(stock_dividents_cninfo_df)
+```
+
+2）使用[东财接口](https://akshare.akfamily.xyz/data/stock/stock.html#id152)替代
+
+```
+stock_fhps_detail_em_df = ak.stock_fhps_detail_em(symbol="300073")
+print(stock_fhps_detail_em_df)
+```

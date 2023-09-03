@@ -61,7 +61,12 @@ class FinancialReport(object):
         print(xjllb_df)
 
 if __name__ == "__main__":
-    code = '002304' # '600519'
+    code = '002304' # 洋河股份
+    #code = '600519' # 贵州茅台
+    #code = '000858' # 五粮液
+    #code = '000568' # 泸州老窖 
+    #code = '600809' # 山西汾酒
+    #code = '000596' # 古井贡
 
     finalcial_report = FinancialReport(code)
     finalcial_report.extract_yearly_zcfzb()

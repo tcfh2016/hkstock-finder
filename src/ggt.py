@@ -45,7 +45,7 @@ def update():
     count_create = 0
     count_append = 0
     start = time.time()
-    for symbol in ggt_df["代码"][480:]:
+    for symbol in ggt_df["代码"][:201]:
         indicator_csv = db_path + symbol + ".csv"
 
         if os.access(indicator_csv, os.R_OK):
